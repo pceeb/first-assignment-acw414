@@ -9,19 +9,33 @@ The book is downloadable here: https://allesinalab.uchicago.edu/wp-content/uploa
 II. Answer the following question. What does this do?   
 
 1. ls [A-Z]*
+Lists all files whose names include any uppercase letters (from A-Z)
 2. cp *.sh /tmp
+copies all files with the extension .sh to the temporary file directory
 3. man pwd
+shows the help page/command manual for the pwd command
 4. cd ~
-5. mkdir -p /test1/test2/test3 
+takes you back to your home directory
+5. mkdir -p /test1/test2/test3
+creates a parent directory (test1) for the nested directories (test2 and test3). This will create a $
 6. cp -r /tmp .
+recursively copies everything in the temporary directory into the current directory you are working $
 7. ls | less
+prints a list of all the files in the current directory on the screen
 8. head -n 24 test.txt » abc.txt
+appends the first 24 lines of the test.txt file to the abc.txt file
 9. echo "aaa" > aaa.txt
+redirects the string “aaa” to the text file aaa.txt. Since this file already exists, it will be over$
 10. ps -u sallesina
+reports a snapshot of the current processes done by the user sallesina
 11. top
+displays Linux tasks, which shows all the current processes running on your computer and the resourc$
 12. ls | grep .sh | xargs mv /tmp
+lists all the files that have .sh extension and moves them all to the temporary file directory
 13. du -sk /home/* | sort -r -n | head -10
+shows the disk usage of all contents in the home directory, sorts them by size and then shows you th$
 14. sort -r names.txt
+prints the lines of the names.txt file in reverse order.
 
 **IMPORTANT** 
 To submit your answers you must do the following:
